@@ -1,0 +1,37 @@
+{
+  "ProjectName": "InAppPurchase",
+  "ProjectGuid": "1aaf3d33-b821-4205-9c6b-782a44ec69ca",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.InAppPurchase",
+  "DisplayName": "InAppPurchase",
+  "Author": "",
+  "Description": "",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.5.0",
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{4ce44073-aa80-4b70-8365-609de505e9b8}",
+  "WP8ProductID": "{c23f1e24-e9ce-42cd-86ce-5f71dbecee6b}",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
