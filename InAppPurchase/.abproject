@@ -7,7 +7,7 @@
   "Author": "Telerik",
   "Description": "InAppPurchase",
   "BundleVersion": "1.0",
-  "AndroidVersionCode": "2",
+  "AndroidVersionCode": "3",
   "iOSDeviceFamily": [
     "1",
     "2"
@@ -15,7 +15,9 @@
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
   "FrameworkVersion": "3.5.0",
-  "AndroidPermissions": [],
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
   "DeviceOrientations": [
     "Portrait",
     "Landscape"
