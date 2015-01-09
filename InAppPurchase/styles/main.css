@@ -20,6 +20,15 @@
     width: 80%;
 }
 
+.demo #productContainer .button {
+  height: 30px;
+}
+
+.demo #productContainer {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+}
+
 h3.hassubtitle {
     margin-bottom: 0;
 }

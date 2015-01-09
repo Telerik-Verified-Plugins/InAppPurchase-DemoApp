@@ -8,7 +8,7 @@
 
   <script>
     window.onerror = function(a,b,c) {
-      alert(a);
+      alert("caught err: " + a);
     }
   </script>
     <script src="cordova.js"></script>
@@ -35,7 +35,8 @@
         </div>
         <h3>InAppPurchase Plugin Demo</h3>
         <p>
-            The InAppPurchase plugin allows ..
+          The InAppPurchase plugin allows you to have users pay for items or subscriptions
+          right from your app. These items will be paid for by the connected App Store account.
         </p>
         <p>
             Custom plugins don't work in the simulator and the AppBuilder companion app,
@@ -52,7 +53,8 @@
         <div class="demo">
           <h3 class="hassubtitle">Init the store</h3>
           <div class="subtitle">
-            Registers our products and checks ownership.
+            Registers our products and checks whether or not the user owns the products.
+            If all goes well, we will list the products below.
           </div>
           <button data-role="button" class="button" data-bind="click: initStore">init</button>
 

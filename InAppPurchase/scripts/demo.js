@@ -11,7 +11,7 @@
 
               // Enable remote receipt validation
               // TODO test without
-              store.validator = "https://api.fovea.cc:1982/check-purchase";
+              //store.validator = "https://api.fovea.cc:1982/check-purchase";
 
               // Inform the store of your products
               store.register({
@@ -49,7 +49,7 @@
                 } else if (p.valid) {
                   var html = "<h3>" + p.title + "</h3>" + "<p>" + p.description + "</p>";
                   if (p.canPurchase) {
-                    html += "<button class='button' onclick='store.order(\"" + p.id + "\")'>" + p.price + "</button>";
+                    html += "<button class='button' onclick='store.order(\"" + p.id + "\")'>Buy for " + p.price + "</button>";
                   }
                   el.innerHTML = html;
                 }
@@ -74,8 +74,7 @@
                                                     if (p.owned) {
                                                       console.log('You have a subscription');
                                                       //document.getElementById('subscriber-info').innerHTML = 'You are a lucky subscriber!';
-                                                    }
-                                                    else {
+                                                    } else {
                                                       console.log('You don\'t have a subscription');
                                                       //document.getElementById('subscriber-info').innerHTML = 'You are not subscribed';
                                                     }
@@ -99,24 +98,14 @@
   
               // The play button can only be accessed when the user owns the full version.
               store.when("Full version").updated(function (product) {
-                                                   alert("The full version updated to " + product.owned ? "owned" : "not owned");
+                                                   console.log("The full version updated to " + (product.owned ? "owned" : "not owned"));
                                                  });
 
               // When the store is ready all products are loaded and in their "final" state.
               // Note that the "ready" function will be called immediately if the store is already ready.
               // When the store is ready, activate the "refresh" button;
               store.ready(function() {
-                            alert("The store is ready"); // TODO change to console.log
-                // TODO implement, but could do without, see note below
-                /*
-                            var el = document.getElementById('refresh-button');
-                            if (el) {
-                              el.style.display = 'block';
-                              el.onclick = function(ev) {
-                                store.refresh();
-                              };
-                            }
-                            */
+                            console.log("The store is ready");
                           });
 
               // Refresh the store.
