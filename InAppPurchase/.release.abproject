@@ -1,22 +1,7 @@
 {
-  "CorePlugins": [
-    "org.apache.cordova.battery-status",
-    "org.apache.cordova.camera",
-    "org.apache.cordova.contacts",
-    "org.apache.cordova.device",
-    "org.apache.cordova.device-motion",
-    "org.apache.cordova.device-orientation",
-    "org.apache.cordova.dialogs",
-    "org.apache.cordova.file",
-    "org.apache.cordova.file-transfer",
-    "org.apache.cordova.geolocation",
-    "org.apache.cordova.globalization",
-    "org.apache.cordova.inappbrowser",
-    "org.apache.cordova.media",
-    "org.apache.cordova.media-capture",
-    "org.apache.cordova.network-information",
-    "org.apache.cordova.splashscreen",
-    "org.apache.cordova.statusbar",
-    "org.apache.cordova.vibration"
-  ]
+  "CordovaPluginVariables": {
+    "cc.fovea.cordova.purchase": {
+      "BILLING_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg76EXaEGorSyCDARmmN/U8eGtA8Y0dPtgm/OuvPP0XMH1ae0CJrMpqcmCN6DpsaG9qEh0KNaZ4YluiVBKrOt0ZMYL6uGxIFjbnAttRz8bIzm8ZFH4rMCyu11PjlylkbaLRdD8Ye1JvXeSu+tYfCSt3zm5/x1cnmsmxH5AdpOBFZALuXu/8VAdwg+u5ehpXRdkKA9B3KMhKbaOdyHvqjnqjfKnb1xN86kayMgzV2bjOeJJQ7Zfm5tDUT5ZtXgYp/ixRQIaJay6AY1BYUe9aFea4dINLJxPDRunJH4MjkPCrPaV6fKWwQaO7Zfzv4VZ2yuOxflGhcQ5XN5hZK8UELIuwIDAQAB"
+    }
+  }
 }

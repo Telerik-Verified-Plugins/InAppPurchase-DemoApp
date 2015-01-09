@@ -2,10 +2,10 @@
   "ProjectName": "InAppPurchase",
   "ProjectGuid": "1aaf3d33-b821-4205-9c6b-782a44ec69ca",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.InAppPurchase",
+  "AppIdentifier": "com.telerik.plugindemo.inapppurchase",
   "DisplayName": "InAppPurchase",
-  "Author": "",
-  "Description": "",
+  "Author": "Telerik",
+  "Description": "InAppPurchase",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -33,5 +33,14 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.console",
+    "org.apache.cordova.device",
+    "org.apache.cordova.dialogs",
+    "org.apache.cordova.network-information",
+    "org.apache.cordova.splashscreen",
+    "org.apache.cordova.statusbar",
+    "org.apache.cordova.vibration"
   ]
 }
