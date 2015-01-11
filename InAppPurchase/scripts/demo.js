@@ -9,10 +9,6 @@
               // Enable maximum logging level
               store.verbosity = store.DEBUG;
 
-              // Enable remote receipt validation
-              // TODO test without
-              //store.validator = "https://api.fovea.cc:1982/check-purchase";
-
               // Inform the store of your products
               store.register({
                                id:    'com.telerik.demoproduct.consumable1',
