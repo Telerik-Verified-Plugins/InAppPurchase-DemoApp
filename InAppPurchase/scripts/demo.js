@@ -47,7 +47,8 @@
                   if (p.canPurchase) {
                     html += "<button class='button' onclick='store.order(\"" + p.id + "\")'>Buy for " + p.price + "</button>";
                   }
-                  el.innerHTML = html;
+//                  el.innerHTML = html;
+                  el.innerHTML = JSON.stringify(p);
                 }
               });
 
