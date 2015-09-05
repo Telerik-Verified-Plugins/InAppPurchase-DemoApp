@@ -6,15 +6,15 @@
   "DisplayName": "InAppPurchase",
   "Author": "Telerik",
   "Description": "InAppPurchase",
-  "BundleVersion": "1.0",
-  "AndroidVersionCode": "3",
+  "BundleVersion": "1.1.0",
+  "AndroidVersionCode": "5",
   "iOSDeviceFamily": [
     "1",
     "2"
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "4.0.0",
+  "FrameworkVersion": "3.8.0",
   "AndroidPermissions": [
     "android.permission.INTERNET"
   ],
@@ -37,14 +37,14 @@
     "ID_RESOLUTION_HD720P"
   ],
   "CorePlugins": [
-    "cordova-plugin-console",
-    "cordova-plugin-crosswalk-webview@1.2.0",
-    "cordova-plugin-device",
-    "cordova-plugin-dialogs",
-    "cordova-plugin-network-information",
-    "cordova-plugin-splashscreen",
-    "cordova-plugin-statusbar",
-    "cordova-plugin-vibration"
+    "cc.fovea.cordova.purchase@3.11.1.1",
+    "org.apache.cordova.console",
+    "org.apache.cordova.device",
+    "org.apache.cordova.dialogs",
+    "org.apache.cordova.network-information",
+    "org.apache.cordova.splashscreen",
+    "org.apache.cordova.statusbar",
+    "org.apache.cordova.vibration"
   ],
   "WP8WindowsPublisherName": "CN=Telerik",
   "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.inapppurchase"
