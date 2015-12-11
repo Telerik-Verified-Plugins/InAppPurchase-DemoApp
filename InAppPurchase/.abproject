@@ -2,7 +2,7 @@
   "ProjectName": "InAppPurchase",
   "ProjectGuid": "1aaf3d33-b821-4205-9c6b-782a44ec69ca",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.plugindemo.inapppurchase",
+  "AppIdentifier": "com.telerik.plugindemo.inapppurchase2",
   "DisplayName": "InAppPurchase",
   "Author": "Telerik",
   "Description": "InAppPurchase",
