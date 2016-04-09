@@ -3,5 +3,16 @@
     "cc.fovea.cordova.purchase": {
       "BILLING_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoHdfIRP6hmPZEIMNjGYCOhM3ILTF/YD5rX0jyPEFiAC2pgfRkrq3SfBPaz3FuMYXM0skAtC1ou4x8zaF0yFq/DenYH2D/yyi5vCv6ZLrsKFrp0J9efPoerSy9PrJG95c3L400CniQWT0gFINaNaw+zPmx5XGxWLmBA3Qq0ZljpLrqD5L/RdRGjNqu307hd7RXxjTU4ttDU6cPNFoGL7eIeMSzbxS0iLGrnshWx6kQTyOjdzH7RT8vuTDAjXAweyOkPCy6e4ySZUj/v+8siMxLwgZT3CnyaxJG124Z1jafC3dqEGJ0kPfW8wuJgcW14PabqKApAbH9QPQD1dAX1VqmwIDAQAB"
     }
-  }
+  },
+  "CorePlugins": [
+    "cordova-plugin-console",
+    "cordova-plugin-device",
+    "cordova-plugin-dialogs",
+    "cordova-plugin-network-information",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-vibration",
+    "cordova-plugin-whitelist",
+    "cc.fovea.cordova.purchase@4.0.0"
+  ]
 }
