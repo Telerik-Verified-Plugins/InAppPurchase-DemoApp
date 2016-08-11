@@ -13,6 +13,6 @@
     "cordova-plugin-statusbar",
     "cordova-plugin-vibration",
     "cordova-plugin-whitelist",
-    "cc.fovea.cordova.purchase@4.0.0"
+    "cc.fovea.cordova.purchase@6.0.0"
   ]
 }
